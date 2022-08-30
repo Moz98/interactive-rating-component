@@ -1,0 +1,19 @@
+.button {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 100px;
+    background: var(--c0-primary);
+    color: var(--c0-neutral);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding-block: 1.2em;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background: var(--c0-neutral);;
+    color: var(--c0-primary);;
+}

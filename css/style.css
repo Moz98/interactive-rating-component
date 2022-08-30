@@ -1,0 +1,4 @@
+@import'./global/reset.css';
+@import './global/colors.css';
+@import './component/rate.css';
+@import './component/button.css';
