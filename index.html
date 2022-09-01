@@ -26,39 +26,42 @@
   <p class="card__desc">Please let us know how we did with your support request. All feedback is appreciated 
   to help us improve our offering!</p>
 
-  <div class="card__rate"> 
+  <div class="card__box-rate" > 
     
-    <input class="oi"type="radio" name="rate" id="1" value="1">
-    <label for="1">
+    <input type="radio" name="rate" id="1" value="1" data-rate>
+    <label class="card__rate" for="1">
       1
     </label>
     
   
-    <input type="radio" name="rate" id="2" value="2">
-    <label for="2">
+    <input type="radio" name="rate" id="2" value="2" data-rate>
+    <label class="card__rate" for="2">
       2
     </label>
   
-    <input type="radio" name="rate" id="3" value="3">
-    <label for="3">
+    <input type="radio" name="rate" id="3" value="3" data-rate>
+    <label class="card__rate" for="3">
       3
     </label>
   
-    <input type="radio" name="rate" id="4" value="4">
-    <label for="4">
+    <input type="radio" name="rate" id="4" value="4" data-rate>
+    <label class="card__rate" for="4">
       4
     </label>
   
-    <input type="radio" name="rate" id="5" value="5">
-    <label for="5">
+    <input type="radio" name="rate" id="5" value="5" data-rate>
+    <label class="card__rate" for="5">
       5
     </label>
   
-
+    
   </div>
 
   <button class="button" type="submit">Submit</button>
 </form>
+
+<div data-rate-mensage>You selected 4 out of 5</div>
+
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
@@ -78,5 +81,7 @@
     Coded by <a href="#">Your Name Here</a>.
   </footer>
 </main>
+
+<script src="./js/main.js"></script>
 </body>
 </html>
