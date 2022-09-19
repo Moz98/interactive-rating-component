@@ -1,5 +1,4 @@
 const rates = Array.from(document.querySelectorAll('[data-rate]'));
-
 const rateMensage = document.querySelector('[data-rate-mensage]')
 
 
