@@ -1,6 +1,6 @@
-@import'./global/reset.css';
-@import './global/colors.css';
-@import './component/rate.css';
-@import './component/submit-card.css';
-@import './component/thanks-card.css';
-@import './component/button.css';
+@import "./global/reset.css";
+@import "./global/colors.css";
+@import "./component/rate.css";
+@import "./component/button.css";
+@import "./component/submit-card.css";
+/* @import './component/thanks-card.css'; */
